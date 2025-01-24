@@ -10,8 +10,8 @@ const BasicClashConfig = {
     "external-controller": ":9090",
     "dns": {
         "enabled": true,
-        "nameserver": ["119.29.29.29", "223.5.5.5"],
-        "fallback": ["8.8.8.8",  "8.8.4.4",  "tls://1.0.0.1:853",  "tls://dns.google:853"]
+        "nameserver": ["223.5.5.5", "119.29.29.29"],
+        "fallback": ["1.1.1.1",  "1.0.0.1"]
     }
 };
 
